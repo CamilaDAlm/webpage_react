@@ -1,0 +1,43 @@
+div.ft-style{
+    background-color: #a8e7d1;
+    position:absolute;
+    top:4vw;
+    width: 73vw;
+    height:90vh;
+  }
+  .treeBody{
+    fill: #a8e7d1;
+    stroke:black;
+  }
+
+
+.tooltip {
+  text-align: left;
+  padding: 8px;
+  background-color:transparent;
+}
+.tooltip_button{  
+    background-color:#a3a3a3;
+    color: white;
+    width:100px;
+    padding: 7px;
+    display:block;
+    margin-left: -7px;
+    margin-right: -7px;
+    transition-duration: 0.4s;
+    border: none;
+    cursor: pointer;
+    &:hover{
+      background-color:rgb(168, 231, 209);;
+    }
+    .svg-tooltip {
+      pointer-events: none;
+     
+  }
+  &:focus{
+    outline: none;
+    display:none;
+  }
+  
+}
+

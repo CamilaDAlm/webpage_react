@@ -1,24 +1,23 @@
 
 
-.top{
+div.top{
     box-sizing:border-box;
     box-sizing:inherit;
     background-color: #325c5c;
 }
 
 .body-style{
-    max-width:1100px;
+    max-width:auto;
     height: 1000px;
     margin-top:0px;
-    margin-bottom:80px;
-    background-color: rgb(168, 231, 209);
+    background-color: #a8e7d1;
 }
 
 .button-style{
     border:none;
     display:inline-block;
     position:relative;
-    width: 20vw;
+    width: 15vw;
     height: 6vh;
     left: 40vw;
     background-color: #325c5c;
@@ -26,6 +25,50 @@
     font-size:large;
     color: white;
     vertical-align:middle;
-    border-radius:6px
+    border-radius:6px;
+    cursor:pointer;
+    
 }
+.button-style:hover{
+    background-color: #284949;
+}
+
+.button-start{
+    top:30vh;
+    left:-5vw;
+}
+
+.rect-style{
+    fill:rgb(0,0,255);
+    stroke-width:2;
+    stroke:rgb(0,0,0);
+    width:auto;
+    height:400px ;
+}
+.heading-style{
+    display:inline;
+    position:relative;
+    background-color: #325c5c;
+    text-align:center;
+    color: white;
+    left:2vw;
+}
+.svg-style{
+    display:inline-block;
+    position:relative;
+    left:40px;
+    top:40px;
+}
+
+.title-start{
+    display:inline-block;
+    width: 45vw;
+    position:relative;
+    text-align:center;
+    color: #325c5c;
+    left:25vw;
+    top:20vh;
+}
+
+
 

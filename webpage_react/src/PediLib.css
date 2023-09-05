@@ -1,0 +1,68 @@
+
+.form-style{
+  display:inline-block;
+  position:relative;
+  top:3vh;
+  left:1vw;
+}
+input{
+  border-radius:6px;
+  background-color: #e5f7f6;
+  width: 20vw;
+  height: 4vh;
+}
+
+.button-svg{
+  position: relative;
+  padding: 1em;
+  background: transparent;
+  border-color: transparent;
+}
+.search-style{
+  display:inline-block;
+  position:relative;
+  height:4vh;
+  width:4vw;
+  top:10px;
+  right:3px;
+}
+
+div.view{
+  display: block;
+  position:relative;
+  width:47%;
+  height: 50%;
+  background-color: #ebf8ef;
+  left:52vw;
+  bottom:24vh;
+  }
+  .treeBody{
+    fill: #ebf8ef;
+    stroke:black;
+  }
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  position:relative;
+  top:15vh;
+  left:1vw;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+  
+}
+th {
+  color:  #ddd;
+  background-color: #325c5c;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: #325c5c;
+          color:#ddd}
+  
+ 

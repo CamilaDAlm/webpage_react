@@ -12,7 +12,15 @@ export function MenuComponent(props){
 
 </div>
 
-let body = <div class='body-style'></div>
+let body = <div class='body-style'>
+<svg width="200" height="200" class='svg-style'>
+  <rect class="rect-style"/>
+</svg>
+<div class='svg-style'>
+    <p>bla bla bla bla bla bla bla</p>
+</div>
+
+</div>
 
    return (<div>
    {header}
