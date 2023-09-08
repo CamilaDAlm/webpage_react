@@ -1,8 +1,6 @@
 
 import React from "react";
 import { Context } from '../Context/context';
-import { FamilyTreePage } from "../FamilyTreePage";
-import { Menu } from "../menu";
 export class HeaderComponent extends React.Component{
     constructor(props) {
         super(props);
@@ -18,6 +16,7 @@ export class HeaderComponent extends React.Component{
     };
     render(){         
         let header = <div class='top'>
+        
         <h3 class='heading-style'>Pedigree collection</h3>             
         <button class='button-style' onClick={()=>this.handleClickPage(1)}>Menu</button>
         <button class='button-style' onClick={()=>this.handleClickPage(2)}>Pedigree builder</button>

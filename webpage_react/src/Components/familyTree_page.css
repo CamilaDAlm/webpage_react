@@ -1,9 +1,11 @@
 div.ft-style{
-    background-color: #a8e7d1;
+    background-color: #ebf8ef;
+    border-radius: 4px;
     position:absolute;
-    top:4vw;
+    top:8vh;
     width: 73vw;
     height:90vh;
+    left:7vw;
   }
   .treeBody{
     fill: #a8e7d1;

@@ -6,8 +6,13 @@ export const ContextProvider = ({ children }) => {
 	function setPageTag(tag){
         setPage(tag)
     }
+	const [family,setFamily] = useState([{}]);
+	function setFamilyTable(table){
+		     setFamily(table)
+	}
+
 	return (
-		<Context.Provider value={{ page, setPageTag }}>
+		<Context.Provider value={{ page, setPageTag,family,setFamilyTable }}>
 			{children}
 		</Context.Provider>
 	);

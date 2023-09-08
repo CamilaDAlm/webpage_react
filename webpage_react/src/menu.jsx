@@ -2,7 +2,6 @@
 //import { MenuComponent } from "./MenuComponent";
 import React from 'react';
 import { Context } from './Context/context';
-import { FamilyTreeComponent } from "./Components/familyTree_component";
 import {HeaderComponent} from "./Components/headerComponent";
 import {FamilyTreePage} from "./FamilyTreePage";
 import './Components/familyTree_page.css';
@@ -24,32 +23,16 @@ handleClickStart(){
 } 
 
 render(){
-    if (this.context.page == 1) {
-        let start = 
-   <h2 class='title-start'> Welcome to the pedigree collection. This is a demo project
-      based a bit from a final degree project. Click the following button
-      to create a pedigree or to see the saved ones. </h2>   
-  
-     
-  
-  let startButton = <button class='button-style button-start' onClick={()=>this.handleClickStart()} >Start</button>
-  
-   return (<div class='body-style'>
-             <HeaderComponent/>
-              {start}
-              {startButton}
-   </div>)
-    }else if (this.context.page == 2){
+    
+  if (this.context.page == 2){
         return(<FamilyTreePage state ={this.state} header = {<HeaderComponent/>}/>)
     }else if (this.context.page == 3){
         return(<PediLibraryPage/>)
     }else {
         let start = 
-   <h2 class='title-start'> Welcome to the pedigree collection. This is a demo project
-      based a bit from a final degree project. Click the following button
-      to create a pedigree or to see the saved ones. </h2>   
-  
-     
+        <h2 class='title-start'> Welcome to the pedigree collection. This is a demo web-based app for building and navigating pedigree trees. Click the following button
+        to create a pedigree tree. Also, clicking on pedigree library it is possible to see the
+        saved family trees. </h2> 
   
   let startButton = <button class='button-style button-start' onClick={()=>this.handleClickStart()} >Start</button>
   

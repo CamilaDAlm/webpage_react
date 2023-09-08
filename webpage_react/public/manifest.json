@@ -1,14 +1,14 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Pedigree collection",
+  "name": "Pedigree collection demo",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "Asset 4ldpi.svg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "Asset 5ldpi.png",
       "type": "image/png",
       "sizes": "192x192"
     },

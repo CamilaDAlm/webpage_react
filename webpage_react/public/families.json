@@ -1,0 +1,70 @@
+[ {
+    "headers" : { 
+              "Content-Type": "application/json",
+              "Accept": "application/json"
+             },
+  "families":[  {
+    "title":"family 1",  
+    "date":"5/7/2019",
+    "members":[
+    {"nodeId":0,"mId":null},
+    {"nodeId":1, "id":"24","gender":"F","fId": 0, "mId":0},
+    {"nodeId":2,"id":"38","gender":"M","fId": 0,"mId":0},
+    {"nodeId":3,"id":"42","gender":"M","fId": 2,"mId":1}]
+
+    },
+
+    {
+    "title":"family 2",  
+    "date":"14/9/2020",
+    "members":[
+    {"nodeId":0,"mId":null},
+    {"nodeId":1, "id":"2","gender":"F","fId": 0, "mId":0},
+    {"nodeId":2,"id":"3","gender":"M","fId": 0,"mId":0},
+    {"nodeId":3,"id":"4","gender":"F","fId": 2,"mId":1},
+    {"nodeId":5,"id":"6","gender":"M","fId": 2,"mId":1},
+    {"nodeId":4,"id":"5","gender":"F","fId": "","mId":3}]
+
+    },
+    {
+      "title":"family 3",  
+      "date":"14/9/2020",
+      "members":[
+      {"nodeId":0},
+      {"nodeId":1, "id":"24","gender":"F","fId": 0, "mId":0},
+      {"nodeId":2,"id":"13","gender":"M","fId": 0,"mId":0},
+      {"nodeId":3,"id":"16","gender":"M","fId": 2,"mId":1},
+      {"nodeId":4,"id":"70","gender":"F","fId": "","mId":2},
+      {"nodeId":-5,"fId": "","mId":0},
+      {"nodeId":5,"id":"16","gender":"M","fId": "","mId":-5},
+      {"nodeId":6,"id":"45","gender":"F","fId":5,"mId":4}
+      
+      ]
+      },
+      {
+        "title":"family 4",  
+        "date":"10/3/2018",
+        "members":[
+        {"nodeId":0},
+        {"nodeId":1, "id":"10","gender":"F","fId": 0, "mId":0},
+        {"nodeId":2,"id":"25","gender":"M","fId": 0,"mId":0},
+        {"nodeId":4,"id":"18","gender":"M","fId": 0,"mId":0},
+        {"nodeId":5,"id":"36","gender":"M","fId": "","mId":1},
+        {"nodeId":8,"id":"67","gender":"F","fId": "","mId":1},
+        {"nodeId":3,"id":"31","gender":"F","fId": 2,"mId":1},
+        {"nodeId":6,"id":"13","gender":"M","fId": 7,"mId":3},
+        {"nodeId":7,"id":"56","gender":"M","fId": "","mId":-7},
+        {"nodeId":-7,"fId": "","mId":0},
+        {"nodeId":9,"id":"78","gender":"F","fId": 7,"mId":8}
+       
+      ]
+    
+        }
+  
+  
+  
+  
+  ]
+
+    }
+]
